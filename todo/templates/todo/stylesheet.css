@@ -1,0 +1,479 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto',sans-serif;
+}
+
+#container{
+    width: 100%;
+    height: 100vh;
+    background-image:url(imgs/background2.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+    z-index: -100;
+    background-color: #000;
+
+
+}
+#container_explore{
+    width: 100%;
+    height: 100vh;
+    background-image:url(imgs/dota.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size:cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+#container-about{
+    width: 100%;
+    height: 100vh;
+    background-image:url(imgs/background3.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+#navbar{
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+#logo{
+    width: 100px;
+    cursor: pointer;
+}
+#menu-icon{
+    width: 50px;
+    cursor: pointer;
+    margin-left: 40px;
+
+}
+nav{
+    flex:1;
+    text-align: right;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 30px;
+}
+nav ul li a{
+    text-decoration:none;
+    color: aliceblue;
+    font-size: 13px;
+}
+#home{
+    color: violet;
+}
+#explore{
+    color: violet;
+}
+#about{
+    color: violet;
+}
+#signin{
+    color:violet ;
+}
+#row{
+    display:flex;
+    height:88%;
+    align-items: center;
+}
+h1{
+    color: blueviolet;
+    font-size: 75px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h2{
+    color: rgb(255, 254, 255);
+}
+sup{
+    font-size:35px ;
+}
+p{
+    color: aliceblue;
+    font-size: 15px;
+    line-height: 25px;
+}
+#p-about-aeomanime1{
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+}
+button{
+    width: 180px;
+    color:#000;
+    font-size:12px;
+    padding: 12px 0px;
+    background: white;
+    border-radius: 20px;
+    border: 0px;
+    margin-top: 40px;
+    cursor: pointer;
+    transform: translate(0.5s);
+}
+#aboutNaru{
+    font-size: 13px;
+}
+#aboutDB{
+    font-size: 13px;
+}
+#aboutOP{
+    font-size: 13px;
+}
+#aboutDS{
+    font-size: 13px;
+}
+#aboutAOT{
+    font-size: 13px;
+}
+#aboutOPM{
+    font-size: 13px;
+}
+#aboutFT{
+    font-size: 13px;
+}
+#aboutHaikyuu{
+    font-size: 13px;
+}
+.tile{
+
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 20px 15px;
+    background-image: url(imgs/naruto.jpg);
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+    margin-left: 50px;
+
+
+}
+.tile2{
+    background-image: url(imgs/dragonball.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.tile3{
+    background-image: url(imgs/onepiece.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.tile4{
+    background-image: url(imgs/onepunchman.jpg);
+    background-position: cover;
+    background-size: cover;
+}
+.tile5{
+    background-image: url(imgs/Kamado\ Tanjiro\ wallpaper.jfif);
+    background-position: cover;
+    background-size: cover;
+}
+.tile6{
+    background-image: url(imgs/attack\ on\ ttitan.jpg);
+    background-position: cover;
+    background-size: cover;
+}
+.tile7{
+    background-image: url(imgs/fairytail.png);
+    background-position: cover;
+    background-size: cover;
+}
+.tile8{
+    background-image: url(imgs/haikyuu.jpg);
+    background-position: cover;
+    background-size: cover;
+}
+.tile:hover{
+    transform: translateY(-10px);
+}
+h5{
+    text-shadow: 0 0 5px #999;
+}
+#about-aeomanime{
+    color: rgb(255, 255, 255);
+}
+#Sgn_body{
+    margin: 0;
+    padding: 0;
+    font-family: montserrat;
+    background: url(imgs/wallpaperflare.com_wallpaper\ \(2\).jpg);
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+#center{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    backdrop-filter: blur(10px) saturate(180%);
+    border-radius: 10px;
+
+}
+#center h1{
+    text-align: center;
+    padding: 0 0 20px 0;
+    box-shadow: 1px #999;
+}
+#center form{
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+ form #username{
+     position:relative;
+     border-bottom: 2px solid rgb(103, 128, 136);
+     margin: 30px 0;
+ }
+
+ form #Password{
+     position:relative;
+     border-bottom: 2px solid rgb(103, 128, 136);
+     margin: 30px 0;
+}
+#username input{
+    width: 100%;
+    padding: 0 5px;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    background: none;
+}
+
+#Password input{
+    width: 100%;
+    padding: 0 5px;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    background: none;
+}
+#username lable{
+    position: absolute;
+    top: 50%;
+    color: #adadad;
+    transform: translateY(-50%);
+    font-size: 16px;
+    pointer-events: none ;
+    transition: 0.5s;
+}
+
+
+#Password lable{
+    position: absolute;
+    top: 50%;
+    color: #adadad;
+    transform: translateY(-50%);
+    font-size: 16px;
+    pointer-events: none ;
+    transition: 0.5s;
+}
+#username span::before{
+    content: '';
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background: rgb(47, 196, 255);
+    transition: 0.5s;
+
+}
+#Password span::before{
+    content: '';
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background: rgb(47, 196, 255);
+    transition: 0.5s;
+
+}
+#username input:focus ~ lable,
+#username input:valid ~ lable{
+    top: -5px;
+    color: rgb(47, 255, 227);
+}
+
+#Password input:focus ~ lable,
+#Password input:valid ~ lable{
+    top: -5px;
+    color: rgb(47, 255, 227);
+}
+#username input:focus ~ span::before,
+#username input:valid ~ span::before{
+    width: 100%;
+}
+#Password input:focus ~ span::before,
+#Password input:valid ~ span::before{
+    width: 100%;
+}
+#F_Pass{
+    margin: -5px 0 20px 5px;
+    color: #999;
+    cursor: pointer;
+}
+#F_Pass:hover{
+    text-decoration: underline;
+}
+#Login{
+    background: rgb(21, 233, 233);
+    width: 100%;
+    height: 50px;
+    border: rgb(46, 43, 250);
+    border-radius: 18px;
+    font-size: 15px;
+    color: bisque;
+    font-weight: 700 ;
+    cursor: pointer;
+    transition: transform 0.5s;
+
+}
+
+input[type="submit"]:hover{
+    border-color: blue;
+    transition: 0.5s;
+}
+#signin_link{
+    margin: 30px 0;
+    text-align: center;
+    font-size: 16px;
+    color: #999;
+}
+
+#signin_link a{
+    text-decoration: none;
+    color: violet;
+}
+
+#explore{
+    color: violet;
+}
+#genre:hover{
+    color: violet;
+}
+.search{
+    position: absolute;
+    overflow: hidden;
+    width: 60px;
+    height: 60px;
+    background: #ffffff;
+    float: right;
+    border-radius: 60px;
+    transition: 0.5s;
+    box-shadow: violet;
+    margin-left: 200px;
+    top: 20px;
+}
+.search.active
+{
+    width: 360px;
+}
+.search .icon
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 60px;
+    height: 60px;
+    background: #ffffff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+}
+.search .icon::before
+{
+    content: '';
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border: 3px solid violet;
+    border-radius: 50%;
+    transform: translate(-4px,-4px);
+}
+.search .icon::after
+{
+    content: '';
+    position: absolute;
+    width: 3px;
+    height: 12px;
+    background:  violet;
+    transform: translate(6px,6px) rotate(315deg);
+}
+.search .input
+{
+    position: relative;
+    width: 300px;
+    height: 60px;
+    left: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search .input input
+{
+    position: absolute;
+    top:0;
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    font-size: 18px;
+
+}
+.clear{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 15px;
+    height: 15px;
+    right: 15px;
+
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.clear::before{
+    position: absolute;
+    content: '';
+    width: 1px;
+    height: 15px;
+    background: violet;
+    transform: rotate(315deg)
+}
+.clear::after{
+    position: absolute;
+    content: '';
+    width: 1px;
+    height: 15px;
+    background: violet;
+    transform: rotate(45deg)
+}
+#explore:hover{
+    transform: translateY(-10px);
+}
+
+
+
+
+
